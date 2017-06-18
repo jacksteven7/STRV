@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-mongoose.connect('localhost:27017/test');
+mongoose.connect('mongodb://jack:strv@ds131312.mlab.com:31312/heroku_d5rz6212');
+//mongodb://jack:strv@ds131312.mlab.com:31312/heroku_d5rz6212
 var Schema = mongoose.Schema;
 var firebase = require('firebase').initializeApp({
   serviceAccount: "./Contacts-9f95a25dc4ea.json",
