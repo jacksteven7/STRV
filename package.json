@@ -1,0 +1,19 @@
+{
+  "name": "strv",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "firebase": "^4.1.2",
+    "mongoose": "^4.10.6",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
